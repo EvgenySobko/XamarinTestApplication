@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{D5DDE6B8-5B75-4272-A79E-6E0939B31961}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TestApp2</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Adapter\Adapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)API\ApiFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)API\IApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Beer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)API\Data.cs" />
+  </ItemGroup>
+</Project>
