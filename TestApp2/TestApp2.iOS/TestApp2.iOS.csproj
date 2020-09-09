@@ -219,6 +219,14 @@
         <Compile Include="LargeImageView.designer.cs">
           <DependentUpon>LargeImageView.cs</DependentUpon>
         </Compile>
+        <Compile Include="obj\iPhoneSimulator\Debug\Xamarin.iOS,Version=v1.0.AssemblyAttributes.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="obj\iPhoneSimulator\Debug\TestApp2.iOS.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\iPhoneSimulator\Debug\TestApp2.iOS.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\iPhoneSimulator\Debug\TestApp2.iOS.csprojAssemblyReference.cache" />
+      <Content Include="obj\iPhoneSimulator\Debug\TestApp2.iOS.exe" />
+      <Content Include="obj\iPhoneSimulator\Debug\TestApp2.iOS.pdb" />
     </ItemGroup>
     <Import Project="..\TestApp2\TestApp2.projitems" Label="Shared" Condition="Exists('..\TestApp2\TestApp2.projitems')" />
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
