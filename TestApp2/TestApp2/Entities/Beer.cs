@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Java.Util;
 using Newtonsoft.Json;
+using SQLite;
 
 namespace TestApp2.Entities{
+    
     public class Beer{
+        [PrimaryKey, AutoIncrement]
         [JsonProperty(PropertyName = "id")] public int id{ get; set; }
 
         [JsonProperty(PropertyName = "name")] public string name{ get; set; }
@@ -40,52 +42,10 @@ namespace TestApp2.Entities{
         [JsonProperty(PropertyName = "attenuation_level")]
         public string attenuation_level{ get; set; }
 
-        [JsonProperty(PropertyName = "volume")]
-        public Volume volume{ get; set; }
-
-        [JsonProperty(PropertyName = "food_pairing")]
-        public List<string> food_pairing{ get; set; }
-
         [JsonProperty(PropertyName = "brewers_tips")]
         public string brewers_tips{ get; set; }
 
         [JsonProperty(PropertyName = "contributed_by")]
         public string contributed_by{ get; set; }
-
-        [JsonProperty(PropertyName = "boil_volume")]
-        public Volume boil_volume{ get; set; }
-
-        [JsonProperty(PropertyName = "method")]
-        public Method method{ get; set; }
-    }
-
-    public class Volume{
-        [JsonProperty(PropertyName = "value")] public int value{ get; set; }
-
-        [JsonProperty(PropertyName = "unit")] public string unit{ get; set; }
-    }
-
-    public class Method{
-        [JsonProperty(PropertyName = "mash_temp")]
-        public List<MashTemp> mash_temp{ get; set; }
-
-        [JsonProperty(PropertyName = "fermentation")]
-        public Fermentation fermentation{ get; set; }
-
-        [JsonProperty(PropertyName = "twist")]
-        public string? twist{ get; set; }
-    }
-
-    public class MashTemp{
-        [JsonProperty(PropertyName = "temp")]
-        public Volume temp{ get; set; }
-
-        [JsonProperty(PropertyName = "duration")]
-        public int? duration{ get; set; }
-    }
-
-    public class Fermentation{
-        [JsonProperty(PropertyName = "temp")]
-        public Volume temp{ get; set; }
     }
 }

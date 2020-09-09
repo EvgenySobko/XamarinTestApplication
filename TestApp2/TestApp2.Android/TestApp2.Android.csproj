@@ -43,69 +43,41 @@
           <Private>True</Private>
         </Reference>
         <Reference Include="Java.Interop" />
-        <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-          <HintPath>..\..\packages\Microsoft.Bcl.AsyncInterfaces.1.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Configuration, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.Configuration.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.Configuration.Abstractions.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.Configuration.Binder.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.DependencyInjection, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.DependencyInjection.3.1.3\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.3\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Http, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.Http.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Http.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Logging, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.Logging.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.Logging.Abstractions.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Options, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.Options.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Primitives, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\..\packages\Microsoft.Extensions.Primitives.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
         <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
           <HintPath>..\..\packages\Newtonsoft.Json.12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
           <Private>True</Private>
         </Reference>
-        <Reference Include="Refit, Version=5.1.0.0, Culture=neutral, PublicKeyToken=2f9b1262776509f5">
-          <HintPath>..\..\packages\Refit.5.1.67\lib\netstandard2.1\Refit.dll</HintPath>
+        <Reference Include="PCLStorage, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\packages\PCLStorage.1.0.2\lib\monoandroid\PCLStorage.dll</HintPath>
           <Private>True</Private>
         </Reference>
-        <Reference Include="Refit.HttpClientFactory, Version=5.1.0.0, Culture=neutral, PublicKeyToken=2f9b1262776509f5">
-          <HintPath>..\..\packages\Refit.HttpClientFactory.5.1.67\lib\netstandard2.0\Refit.HttpClientFactory.dll</HintPath>
+        <Reference Include="PCLStorage.Abstractions, Version=1.0.2.0, Culture=neutral, PublicKeyToken=286fe515a2c35b64">
+          <HintPath>..\..\packages\PCLStorage.1.0.2\lib\monoandroid\PCLStorage.Abstractions.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="SQLite-net, Version=1.7.335.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\packages\sqlite-net-pcl.1.7.335\lib\netstandard2.0\SQLite-net.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="SQLitePCLRaw.batteries_v2, Version=2.0.3.851, Culture=neutral, PublicKeyToken=8226ea5df37bcae9">
+          <HintPath>..\..\packages\SQLitePCLRaw.bundle_green.2.0.3\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="SQLitePCLRaw.core, Version=2.0.3.851, Culture=neutral, PublicKeyToken=1488e028ca7ab535">
+          <HintPath>..\..\packages\SQLitePCLRaw.core.2.0.3\lib\netstandard2.0\SQLitePCLRaw.core.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="SQLitePCLRaw.lib.e_sqlite3.android, Version=2.0.3.851, Culture=neutral, PublicKeyToken=e4ad490600e2234c">
+          <HintPath>..\..\packages\SQLitePCLRaw.lib.e_sqlite3.android.2.0.3\lib\monoandroid80\SQLitePCLRaw.lib.e_sqlite3.android.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="SQLitePCLRaw.provider.e_sqlite3, Version=2.0.3.851, Culture=neutral, PublicKeyToken=9c301db686d0bd12">
+          <HintPath>..\..\packages\SQLitePCLRaw.provider.e_sqlite3.2.0.3\lib\netstandard2.0\SQLitePCLRaw.provider.e_sqlite3.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="System" />
         <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
           <HintPath>..\..\packages\System.Buffers.4.5.1\lib\netstandard2.0\System.Buffers.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-          <HintPath>..\..\packages\System.Memory.4.5.2\lib\netstandard2.0\System.Memory.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="System.Net.Http" />
@@ -249,10 +221,10 @@
           <Private>True</Private>
         </Reference>
         <Reference Include="Square.OkIO">
-          <HintPath>..\..\packages\Square.OkIO.1.15.0\lib\monoandroid44\Square.OkIO.dll</HintPath>
+          <HintPath>..\..\packages\Square.OkIO.2.4.1\lib\monoandroid90\Square.OkIO.dll</HintPath>
         </Reference>
         <Reference Include="Square.OkHttp3">
-          <HintPath>..\..\packages\Square.OkHttp3.3.11.0\lib\monoandroid44\Square.OkHttp3.dll</HintPath>
+          <HintPath>..\..\packages\Square.OkHttp3.4.2.2\lib\monoandroid90\Square.OkHttp3.dll</HintPath>
         </Reference>
         <Reference Include="Xamarin.Android.Support.Exif">
           <HintPath>..\..\packages\Xamarin.Android.Support.Exif.28.0.0.3\lib\monoandroid90\Xamarin.Android.Support.Exif.dll</HintPath>
@@ -260,8 +232,60 @@
         <Reference Include="Square.Picasso">
           <HintPath>..\..\packages\Square.Picasso.2.71828.0\lib\monoandroid90\Square.Picasso.dll</HintPath>
         </Reference>
+        <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+          <HintPath>..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.7\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.DependencyInjection">
+          <HintPath>..\..\packages\Microsoft.Extensions.DependencyInjection.3.1.7\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+          <HintPath>..\..\packages\Microsoft.Extensions.Logging.Abstractions.3.1.7\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Memory">
+          <HintPath>..\..\packages\System.Memory.4.5.4\lib\netstandard2.0\System.Memory.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Primitives">
+          <HintPath>..\..\packages\Microsoft.Extensions.Primitives.3.1.7\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+          <HintPath>..\..\packages\Microsoft.Extensions.Configuration.Abstractions.3.1.7\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Configuration">
+          <HintPath>..\..\packages\Microsoft.Extensions.Configuration.3.1.7\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Configuration.Binder">
+          <HintPath>..\..\packages\Microsoft.Extensions.Configuration.Binder.3.1.7\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Options">
+          <HintPath>..\..\packages\Microsoft.Extensions.Options.3.1.7\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Logging">
+          <HintPath>..\..\packages\Microsoft.Extensions.Logging.3.1.7\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Extensions.Http">
+          <HintPath>..\..\packages\Microsoft.Extensions.Http.3.1.7\lib\netstandard2.0\Microsoft.Extensions.Http.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+          <HintPath>..\..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.1\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+        </Reference>
+        <Reference Include="Refit">
+          <HintPath>..\..\packages\Refit.5.2.1\lib\netstandard2.1\Refit.dll</HintPath>
+        </Reference>
+        <Reference Include="Refit.HttpClientFactory">
+          <HintPath>..\..\packages\Refit.HttpClientFactory.5.2.1\lib\netstandard2.0\Refit.HttpClientFactory.dll</HintPath>
+        </Reference>
+        <Reference Include="Xamarin.Jetbrains.Annotations">
+          <HintPath>..\..\packages\Xamarin.Jetbrains.Annotations.13.0.0.1\lib\monoandroid90\Xamarin.Jetbrains.Annotations.dll</HintPath>
+        </Reference>
+        <Reference Include="Xamarin.Kotlin.StdLib.Common">
+          <HintPath>..\..\packages\Xamarin.Kotlin.StdLib.Common.1.3.50.1\lib\monoandroid90\Xamarin.Kotlin.StdLib.Common.dll</HintPath>
+        </Reference>
+        <Reference Include="Xamarin.Kotlin.StdLib">
+          <HintPath>..\..\packages\Xamarin.Kotlin.StdLib.1.3.50.1\lib\monoandroid90\Xamarin.Kotlin.StdLib.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Adapter\Adapter.cs" />
         <Compile Include="MainActivity.cs" />
         <Compile Include="Resources\Resource.designer.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
@@ -271,9 +295,11 @@
         <None Include="packages.config" />
         <None Include="Resources\AboutResources.txt" />
         <None Include="Properties\AndroidManifest.xml" />
-        <None Include="Assets\AboutAssets.txt" />
     </ItemGroup>
     <ItemGroup>
+        <AndroidResource Include="Resources\drawable\beer_placeholder.jpg">
+          <SubType>Designer</SubType>
+        </AndroidResource>
         <AndroidResource Include="Resources\layout\activity_main.axml" />
         <AndroidResource Include="Resources\layout\activity_second.axml" />
         <AndroidResource Include="Resources\layout\item_fact_list.xml" />
@@ -313,7 +339,6 @@
       <Error Condition="!Exists('..\..\packages\Xamarin.Android.Support.ViewPager.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.ViewPager.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Android.Support.ViewPager.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.ViewPager.targets'))" />
       <Error Condition="!Exists('..\..\packages\Xamarin.Android.Support.Core.UI.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Core.UI.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Android.Support.Core.UI.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Core.UI.targets'))" />
       <Error Condition="!Exists('..\..\packages\Xamarin.Android.Support.v7.RecyclerView.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v7.RecyclerView.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Android.Support.v7.RecyclerView.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v7.RecyclerView.targets'))" />
-      <Error Condition="!Exists('..\..\packages\Refit.5.1.67\build\netstandard2.0\refit.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Refit.5.1.67\build\netstandard2.0\refit.targets'))" />
       <Error Condition="!Exists('..\..\packages\Xamarin.Android.Support.Media.Compat.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Media.Compat.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Android.Support.Media.Compat.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Media.Compat.targets'))" />
       <Error Condition="!Exists('..\..\packages\Xamarin.Android.Support.Fragment.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Fragment.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Android.Support.Fragment.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Fragment.targets'))" />
       <Error Condition="!Exists('..\..\packages\Xamarin.Android.Support.v4.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v4.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Android.Support.v4.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v4.targets'))" />
@@ -345,10 +370,13 @@
     <Import Project="..\..\packages\Xamarin.Android.Support.ViewPager.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.ViewPager.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.ViewPager.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.ViewPager.targets')" />
     <Import Project="..\..\packages\Xamarin.Android.Support.Core.UI.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Core.UI.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Core.UI.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Core.UI.targets')" />
     <Import Project="..\..\packages\Xamarin.Android.Support.v7.RecyclerView.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v7.RecyclerView.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.v7.RecyclerView.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v7.RecyclerView.targets')" />
-    <Import Project="..\..\packages\Refit.5.1.67\build\netstandard2.0\refit.targets" Condition="Exists('..\..\packages\Refit.5.1.67\build\netstandard2.0\refit.targets')" />
     <Import Project="..\..\packages\Xamarin.Android.Support.Media.Compat.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Media.Compat.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Media.Compat.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Media.Compat.targets')" />
     <Import Project="..\..\packages\Xamarin.Android.Support.Fragment.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Fragment.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Fragment.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Fragment.targets')" />
     <Import Project="..\..\packages\Xamarin.Android.Support.v4.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v4.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.v4.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v4.targets')" />
     <Import Project="..\..\packages\Xamarin.Android.Support.v7.CardView.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v7.CardView.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.v7.CardView.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.v7.CardView.targets')" />
     <Import Project="..\..\packages\Xamarin.Android.Support.Exif.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Exif.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Exif.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Exif.targets')" />
+    <Import Project="..\..\packages\Refit.5.2.1\build\netstandard2.0\refit.targets" Condition="Exists('..\..\packages\Refit.5.2.1\build\netstandard2.0\refit.targets')" />
+    <Import Project="..\..\packages\Xamarin.Jetbrains.Annotations.13.0.0.1\build\monoandroid90\Xamarin.Jetbrains.Annotations.targets" Condition="Exists('..\..\packages\Xamarin.Jetbrains.Annotations.13.0.0.1\build\monoandroid90\Xamarin.Jetbrains.Annotations.targets')" />
+    <Import Project="..\..\packages\Xamarin.Kotlin.StdLib.Common.1.3.50.1\build\monoandroid90\Xamarin.Kotlin.StdLib.Common.targets" Condition="Exists('..\..\packages\Xamarin.Kotlin.StdLib.Common.1.3.50.1\build\monoandroid90\Xamarin.Kotlin.StdLib.Common.targets')" />
+    <Import Project="..\..\packages\Xamarin.Kotlin.StdLib.1.3.50.1\build\monoandroid90\Xamarin.Kotlin.StdLib.targets" Condition="Exists('..\..\packages\Xamarin.Kotlin.StdLib.1.3.50.1\build\monoandroid90\Xamarin.Kotlin.StdLib.targets')" />
 </Project>

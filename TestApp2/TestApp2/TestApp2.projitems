@@ -9,7 +9,6 @@
     <Import_RootNamespace>TestApp2</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Adapter\Adapter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)API\ApiFactory.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)API\IApi.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Entities\Beer.cs" />

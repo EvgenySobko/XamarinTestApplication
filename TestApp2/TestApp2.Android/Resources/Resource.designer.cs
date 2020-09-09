@@ -25,6 +25,8 @@ namespace TestApp2.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::PCLStorage.Resource.String.ApplicationName = global::TestApp2.Android.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::TestApp2.Android.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -334,40 +336,43 @@ namespace TestApp2.Android
 		{
 			
 			// aapt resource value: 0x7F040000
-			public const int notification_action_background = 2130968576;
+			public const int beer_placeholder = 2130968576;
 			
 			// aapt resource value: 0x7F040001
-			public const int notification_bg = 2130968577;
+			public const int notification_action_background = 2130968577;
 			
 			// aapt resource value: 0x7F040002
-			public const int notification_bg_low = 2130968578;
+			public const int notification_bg = 2130968578;
 			
 			// aapt resource value: 0x7F040003
-			public const int notification_bg_low_normal = 2130968579;
+			public const int notification_bg_low = 2130968579;
 			
 			// aapt resource value: 0x7F040004
-			public const int notification_bg_low_pressed = 2130968580;
+			public const int notification_bg_low_normal = 2130968580;
 			
 			// aapt resource value: 0x7F040005
-			public const int notification_bg_normal = 2130968581;
+			public const int notification_bg_low_pressed = 2130968581;
 			
 			// aapt resource value: 0x7F040006
-			public const int notification_bg_normal_pressed = 2130968582;
+			public const int notification_bg_normal = 2130968582;
 			
 			// aapt resource value: 0x7F040007
-			public const int notification_icon_background = 2130968583;
+			public const int notification_bg_normal_pressed = 2130968583;
 			
 			// aapt resource value: 0x7F040008
-			public const int notification_template_icon_bg = 2130968584;
+			public const int notification_icon_background = 2130968584;
 			
 			// aapt resource value: 0x7F040009
-			public const int notification_template_icon_low_bg = 2130968585;
+			public const int notification_template_icon_bg = 2130968585;
 			
 			// aapt resource value: 0x7F04000A
-			public const int notification_tile_bg = 2130968586;
+			public const int notification_template_icon_low_bg = 2130968586;
 			
 			// aapt resource value: 0x7F04000B
-			public const int notify_panel_notification_icon_bg = 2130968587;
+			public const int notification_tile_bg = 2130968587;
+			
+			// aapt resource value: 0x7F04000C
+			public const int notify_panel_notification_icon_bg = 2130968588;
 			
 			static Drawable()
 			{
@@ -647,13 +652,19 @@ namespace TestApp2.Android
 		{
 			
 			// aapt resource value: 0x7F080000
-			public const int app_name = 2131230720;
-			
-			// aapt resource value: 0x7F080001
-			public const int hello = 2131230721;
+			public const int ApplicationName = 2131230720;
 			
 			// aapt resource value: 0x7F080002
-			public const int status_bar_notification_info_overflow = 2131230722;
+			public const int app_name = 2131230722;
+			
+			// aapt resource value: 0x7F080001
+			public const int Hello = 2131230721;
+			
+			// aapt resource value: 0x7F080003
+			public const int hello = 2131230723;
+			
+			// aapt resource value: 0x7F080004
+			public const int status_bar_notification_info_overflow = 2131230724;
 			
 			static String()
 			{

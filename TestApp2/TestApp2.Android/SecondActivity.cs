@@ -31,6 +31,7 @@ namespace TestApp2.Android{
                 
                 Picasso.Get()
                     .Load(result[0].image_url)
+                    .Placeholder(Resource.Drawable.beer_placeholder)
                     .Into(image);
                 title.Text = result[0].name + ", " + result[0].ph + "%";;
                 description.Text = result[0].description;

@@ -9,7 +9,7 @@ using Android.Support.V7.Widget;
 using Android.Util;
 using Android.Views;
 using TestApp2.Entities;
-using Adapter = TestApp.adapter.Adapter;
+using Adapter = TestApp2.Android.adapter.Adapter;
 
 namespace TestApp2.Android{
     [Activity(Label = "TestApp2", MainLauncher = true)]

@@ -1,15 +1,12 @@
 using System;
 using System.Collections.Generic;
-using Android;
-using Android.Runtime;
 using Android.Support.V7.Widget;
-using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Square.Picasso;
 using TestApp2.Entities;
 
-namespace TestApp.adapter{
+namespace TestApp2.Android.adapter{
     public class Adapter: RecyclerView.Adapter {
         
         private List<Beer> listOfItems;
@@ -44,6 +41,7 @@ namespace TestApp.adapter{
                 title!.Text = item.name;
                 Picasso.Get()
                     .Load(item.image_url)
+                    .Placeholder(Resource.Drawable.beer_placeholder)
                     .Into(image);
             }
         }
